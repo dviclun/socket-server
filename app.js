@@ -15,7 +15,7 @@ const io = new Server(server, {
 });
 
 //servidor a la escucha por el puerto 3000
-server.listen(process.env.PORT || 8001, () => {
+server.listen(8001, () => {
     console.log('escuchando solicitud');
 })
 
